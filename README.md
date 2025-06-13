@@ -14,13 +14,31 @@ A simple and interactive To-Do List application built with React. This project d
 
 ## 🚀 Tech Stack
 
-- **React** (functional components + hooks)
-- **JavaScript (ES6+)**
-- **CSS** (or Tailwind, optional)
-
+- **React** 
+- **JavaScript **
+- **CSS** 
 ## 📸 File Structure
 
+```bash
 
+├── 📁 node_modules/
+├── 📁 public/
+├── 📁 src/
+│   ├── 📁 Components/
+│   │   ├── ⚛️ AddTodo.jsx
+│   │   ├── ⚛️ TodoItem.jsx
+│   │   └── ⚛️ TodoList.jsx
+│   ├── ⚛️ App.jsx
+│   ├── 🎨 index.css
+│   └── ⚛️ main.jsx
+├── 🚫 .gitignore
+├── ⚙️ eslint.config.js
+├── 🌐 index.html
+├── 🔒 package-lock.json
+├── 📦 package.json
+├── 📖 README.md
+└── ⚡ vite.config.js
+```
 
 
 ## 🛠️ How to Run
@@ -29,5 +47,13 @@ Follow these steps to run the project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/react-todo-list.git
-   cd react-todo-list
+   git clone https://github.com/yourusername/react-todo-list.git](https://github.com/Hiimanshuhh/To-Do-Application.git
+   cd To-Do App
+   ```
+2. **Install Dependencies**
+    ```bash
+   npm intall
+   ```
+3. **Start Development Server**
+   ```bash
+   npm run dev
