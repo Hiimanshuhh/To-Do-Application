@@ -11,12 +11,38 @@ A simple and interactive To-Do List application built with React. This project d
 - 🔃 Sort tasks alphabetically or by creation time
 - 💾 Persist tasks using `localStorage`
 - ⚡ Responsive and dynamic UI with clean UX
+  
+## 🧪 Testing Guide
 
-## 🚀 Tech Stack
+After running the app locally, you can test its functionality by following this checklist:
 
-- **React** 
-- **JavaScript **
-- **CSS** 
+1. ✅ **Add Task:**
+   - Type a valid task in the input field and click “Add” or press Enter.
+   - The task should appear in the task list below.
+
+2. 🚫 **Input Validation:**
+   - Try submitting an empty task or spaces only.
+   - The app should prevent submission and show an error or warning.
+
+3. ✔️ **Mark as Completed:**
+   - Click the checkbox or completion toggle for a task.
+   - The task should visually update (e.g., strikethrough).
+
+4. ❌ **Delete Task:**
+   - Click the Cross icon on a task.
+   - The task should be removed from the list.
+
+5. 🔍 **Filter & Sort:**
+   - Use the filtering options (e.g., All / Active / Completed).
+   - Try sorting tasks alphabetically.
+
+6. 🔁 **Persistence:**
+   - Refresh the page.
+   - All previously added tasks should remain (thanks to `localStorage`).
+
+> You can also open Developer Tools → Application → LocalStorage to verify tasks are saved properly.
+
+  
 ## 📸 File Structure
 
 ```bash
